@@ -77,5 +77,5 @@
         <url>http://192.168.228.130:8081/repository/SONARMAVEN-SNAP/ </url>
       
       </snapshotRepository>
-     <distributionManagement>
+     </distributionManagement>
 </project>
