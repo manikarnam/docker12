@@ -16,7 +16,7 @@ node {
    //step([$class: 'JUnitResultArchiver', testResults: '**/target/surefire-reports/TEST-*.xml'])
    stage 'success'
    echo 'successfully deployed'
-   stage 'deploy'
-   sh '/mani/target/mani.war TOMCAT_DIRECTORY/webapps/'
+  // stage 'deploy'
+  // sh '/mani/target/mani.war TOMCAT_DIRECTORY/webapps/'
 }
    
