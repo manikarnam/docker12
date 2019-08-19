@@ -23,6 +23,6 @@ node {
   // deploy adapters: [tomcat8(credentialsId: '3e07da6c-df95-49d3-beca-de7eee35fd82', path: '', url: 'https://http://192.168.228.130:9090')], contextPath: null, war: '/target/mani.war'
    //deploy adapters: [tomcat8(credentialsId: '3e07da6c-df95-49d3-beca-de7eee35fd82', path: '', url: 'https://192.168.228.130:9090')], contextPath: null, war: '**/*.war'
    //deploy adapters: [tomcat8(credentialsId: '3e07da6c-df95-49d3-beca-de7eee35fd82', path: '', url: 'https://192.168.228.130:9090')], contextPath: null, war: '**/target/mani.war'
-   deploy adapters: [tomcat8(credentialsId: '3e07da6c-df95-49d3-beca-de7eee35fd82', path: '', url: 'http://192.168.228.130:9090')], contextPath: null, onFailure: false, war: '/target/mani.war'
+   deploy adapters: [tomcat8(credentialsId: '3e07da6c-df95-49d3-beca-de7eee35fd82', path: '', url: 'http://192.168.228.130:9090')], contextPath: null, onFailure: false, war: '**/*.war'
 }
    
