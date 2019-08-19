@@ -16,7 +16,8 @@ node {
    //step([$class: 'JUnitResultArchiver', testResults: '**/target/surefire-reports/TEST-*.xml'])
    stage 'success'
    echo 'successfully deployed'
-  // stage 'deploy'
+   stage 'deploy'
   // sh '/mani/target/mani.war TOMCAT_DIRECTORY/webapps/'
+   deploy adapters: [tomcat8(credentialsId: '1c3e621e-a275-4c07-a745-aa3e688ca1b5', path: '', url: 'http://http://192.168.228.130:9090')], contextPath: 'mani.war', war: 'target/mani.war'
 }
    
