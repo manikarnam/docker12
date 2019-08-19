@@ -17,6 +17,6 @@ node {
    stage 'success'
    echo 'successfully deployed'
    stage 'deploy'
-   sh '/target/mani.war TOMCAT_DIRECTORY/webapps/'
+   sh '/mani/target/mani.war TOMCAT_DIRECTORY/webapps/'
 }
    
