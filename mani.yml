@@ -1,0 +1,10 @@
+---
+- hosts: test-servers
+  become: true 
+  tasks:
+    - name: copy war onto tomcat server
+        copy:
+          src: /root/ansible/docker12/target/mani.war
+          dest: /usr/local/tomcat7/webapps
+
+
