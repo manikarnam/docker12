@@ -69,7 +69,7 @@
   </build>
   <distributionManagement>
       <repository>
-          <id>deployment</id>
+        <!-- <id>deployment</id>
         <name>Internal Releases</name>
         <url>http://192.168.228.130:8081/repository/SONARMAVEN-REL/ </url>
         </repository>
@@ -78,6 +78,16 @@
         <name>Internal Snapshot Releases</name>
         <url>http://192.168.228.130:8081/repository/SONARMAVEN-SNAP/ </url>
       
-      </snapshotRepository>
+      </snapshotRepository> -->
+        <id>eswarmaniengg</id>
+  <url>https://pkgs.dev.azure.com/eswarmaniengg/_packaging/eswarmaniengg/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots> 
+        </repository>
      </distributionManagement>
+  
 </project>
